@@ -1,0 +1,28 @@
+.card {
+    flex: 1 25%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.cardImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.cardBody {
+    padding: 20px;
+}
+
+.cardTitle {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cardText {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
